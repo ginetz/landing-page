@@ -1,0 +1,27 @@
+body{
+    background-color: #d3d3d3;
+}
+nav{
+    background-color: #151515;
+    border-radius: 0.75em;
+    margin: 15px 15px;
+    font-size: 20px;
+}
+nav > ul{
+    display: flex;
+}
+nav > ul > #logo {
+    margin-right: auto;
+  }
+.nav-bar{
+    padding: 1em 2em;
+    list-style: none;
+}
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
